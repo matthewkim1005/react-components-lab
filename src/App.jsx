@@ -44,7 +44,6 @@ const App = () => {
     <>
       <h1>Local Weather</h1>
       <section>
-        <ul>
           {weatherForecasts.map((forcasts) =>
             <WeatherForecast 
               day={forcasts.day} 
@@ -54,7 +53,6 @@ const App = () => {
               time={forcasts.time}
             />
           )}
-        </ul>
       </section>
     </>
   );
